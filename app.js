@@ -37,7 +37,7 @@ router.route('/user')
         res.json({
             "data": {
                 "user": "Some User",
-                "": "Silver"
+                "someData": "Some Data"
             }
         });
     });
